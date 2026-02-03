@@ -117,16 +117,24 @@
   </style>
 </head>
 <body>
-  <h1>Bienvenue sur mon site 🎉</h1>
-  <p>Voici un site avec une image de fond.</p>
-</body>
+  <h1>Electrochauf Srl</h1>
+  <p>Chauffagiste professionel</p>
+<body>body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.4); /* noir semi-transparent */
+  z-index: -1;
+}
+
 
 <header>
     <div class="container">
         <nav>
-            <strong>Electrochauf Service</strong>
+            <strong>Dépannage Service</strong>
             <div>
-                <a href="#services">Services</a>
+                <a href="#Installation">Services</a>
                 <a href="#contact">Contact</a>
                 <a href="#devis">Devis gratuit</a>
             </div>
@@ -172,7 +180,7 @@
 </section>
 
 <footer id="contact">
-    <p>© 2026 - Electrochauf Service | Artisan chauffagiste</p>
+    <p>© 2026 - Dépannage Service | Artisan chauffagiste</p>
     <p>Mentions légales - Politique de confidentialité</p>
 </footer>
 
