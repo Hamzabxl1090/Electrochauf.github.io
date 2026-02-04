@@ -20,6 +20,10 @@ header {
   text-align: center;
 }
 
+.service p {
+    color: #1a237e; /* couleur personnalisée */
+}
+
 nav {
   background: #222;
   padding: 10px;
@@ -92,4 +96,5 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
 
